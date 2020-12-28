@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/choose_back">
+
+        <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="650dp"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:id="@+id/question_choose"
+                android:layout_width="255dp"
+                android:layout_height="255dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/questions_book"
+                android:gravity="center"
+                android:textSize="60dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/bubble"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_below="@id/question_choose"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginHorizontal="80dp"
+                android:background="@drawable/bubble">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/forest_choose"
+                android:layout_width="255dp"
+                android:layout_height="255dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/tree"
+                android:gravity="center"
+                android:textSize="60dp">
+
+            </TextView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

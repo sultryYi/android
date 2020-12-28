@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/questionTest">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:id="@+id/mScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/textViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--<TextView-->
+                    <!--android:layout_width="270dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginTop="80dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:maxLines="5"-->
+                    <!--android:background="@drawable/question_background2"-->
+                    <!--android:paddingTop="20dp"-->
+                    <!--android:paddingBottom="20dp"-->
+                    <!--android:paddingStart="40dp"-->
+                    <!--android:paddingEnd="40dp"-->
+                    <!--android:text="0-"-->
+                    <!--android:textSize="30sp" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="20dp"-->
+                    <!--android:layout_height="520dp">-->
+                <!--</View>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="270dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginTop="80dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:maxLines="5"-->
+                    <!--android:background="@drawable/question_background2"-->
+                    <!--android:paddingTop="20dp"-->
+                    <!--android:paddingBottom="20dp"-->
+                    <!--android:paddingStart="40dp"-->
+                    <!--android:paddingEnd="40dp"-->
+                    <!--android:text="00000000000000000000000000000000000000000000000000000"-->
+                    <!--android:textSize="30sp" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="20dp"-->
+                    <!--android:layout_height="100dp">-->
+                <!--</View>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="270dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginTop="80dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:maxLines="5"-->
+                    <!--android:background="@drawable/question_background2"-->
+                    <!--android:paddingTop="20dp"-->
+                    <!--android:paddingBottom="20dp"-->
+                    <!--android:paddingStart="40dp"-->
+                    <!--android:paddingEnd="40dp"-->
+                    <!--android:text=""-->
+                    <!--android:textSize="30sp" />-->
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <SeekBar
+            android:id="@+id/SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:progressTint="@android:color/transparent"
+            android:thumbTint="@color/questionBack"
+            android:focusable="false"/>
+
+        <Button
+            android:id="@+id/addQuestion"
+            android:paddingTop="20dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_back" />
+    </LinearLayout>
+</RelativeLayout>

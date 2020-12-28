@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/truebackground">
+
+    <LinearLayout
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="top"
+            android:focusable="true"
+            android:gravity="center"
+            android:background="@color/questionBack"
+            android:text="@string/question"
+            android:textSize="48sp"
+            android:textColor="@android:color/white"
+            android:shadowRadius="10"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowColor="@android:color/black"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/forestTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom"
+            android:focusable="true"
+            android:gravity="center"
+            android:background="@color/questionTest"
+            android:text="@string/forest"
+            android:textSize="48sp"
+            android:textColor="@android:color/white"
+            android:shadowRadius="10"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowColor="@android:color/black"/>
+    </LinearLayout>
+</RelativeLayout>

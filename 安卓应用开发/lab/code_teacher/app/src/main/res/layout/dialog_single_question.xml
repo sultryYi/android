@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/create_user_dialog_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="200dp"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:background="@drawable/dialog_shape"
+    android:paddingTop="20dp">
+    <TextView
+        android:id="@+id/question_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:minHeight="50dp"
+        android:gravity="top"
+        android:textColor="@color/cantSee"
+        android:scrollbars="vertical"
+        android:ellipsize="end"
+        android:maxLength="800"
+        android:minLines="8"
+        android:maxLines="8"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/question_agree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:gravity="center"
+        android:textColor="#0097a7"
+        android:textSize="40sp" />
+</LinearLayout>

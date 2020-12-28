@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sliding</string>
+    <string name="todo">TODO</string>
+    <string name="teacher">教师</string>
+    <string name="student">学生</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="adminName">admin</string>
+    <string name="adminPwd">123</string>
+    <string name="demoQuestion">This is aaaaaaaa Question...</string>
+</resources>

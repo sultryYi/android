@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#84fab0</color>
+    <color name="colorPrimaryDark">#93E1D4</color>
+    <color name="colorStudentBack">#8fd3f4</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="cantSee">#FFFFFF</color>
+    <color name="colorCard">#FCDCE5</color>
+    <color name="colorDialogBack">#44BEA7</color>
+    <color name="questionBack">#F09A9B</color>
+    <color name="questionTest">#E0F9B5</color>
+    <color name="colorTeacherBack">#2A5290</color>
+    <color name="colorTeacherItem">#2E599D</color>
+    <color name="colorgreen">#168054</color>
+    <color name="colorlightgreen">#178D5C</color>
+</resources>
